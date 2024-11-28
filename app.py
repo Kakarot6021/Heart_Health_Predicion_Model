@@ -5,7 +5,7 @@ import joblib
 app = Flask(__name__)
 
 # Load your trained model
-model_rf = joblib.load('heart_disease.pkl')
+model_rf = joblib.load('Heart_disease_model.pkl')
 
 @app.route('/')
 def index():
